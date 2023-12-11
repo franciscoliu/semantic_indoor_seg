@@ -32,7 +32,7 @@ Lastly, run:
 python inference.py --img_path redkitchen/redkitchen/seq-01/seq-01/frame-000000.color.png --restore_from=pretrained_models/ResNet101/
 ```
 
-However, I ran into some problems here and I am trying to figure it out. This work is beyond the work of improving depth map estimation, but it is necessary for 3D reconstruction. Hence, we will leave this for future work. Here's some previews for the results (not good :( ):
+However, though the code is bug-free already, the quality of the generated segmentation label is not high. Hence, we decided not to moving forward with this code, more design and modification is needed. This work is beyond the work of improving depth map estimation, but it is necessary for 3D reconstruction. Hence, we will leave this for future work. Here's some previews for the results (not good :( ):
 
 Input:
 

@@ -32,4 +32,9 @@ Lastly, run:
 python inference.py --img_path redkitchen/redkitchen/seq-01/seq-01/frame-000000.color.png --restore_from=pretrained_models/ResNet101/
 ```
 
-However, I ran into some problems here and I am trying to figure it out. This work is beyond the work of improving depth map estimation, but it is necessary for 3D reconstruction. Hence, we will leave this for future work.
+However, I ran into some problems here and I am trying to figure it out. This work is beyond the work of improving depth map estimation, but it is necessary for 3D reconstruction. Hence, we will leave this for future work. Here's some previews for the results (not good :( ):
+![frame-000000 color](https://github.com/franciscoliu/semantic_indoor_seg/assets/62361017/1e248944-32df-48be-b5f8-736031c625f6)
+![frame-000000_seg color](https://github.com/franciscoliu/semantic_indoor_seg/assets/62361017/51aee94a-f5ad-4876-8da8-ace59026ffaf)
+
+
+
